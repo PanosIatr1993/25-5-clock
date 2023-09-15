@@ -1,0 +1,55 @@
+body {
+  height: 500px;
+  background-color: #526380;
+  color: white;
+  font-family: "Times New Roman";
+}
+
+#timer {
+  width: 50%;
+  height: 500px;
+  background-color: #526380;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#break-label, #session-label {
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+#break-space, #session-space {
+  display: flex;
+  justify-content: space-around;
+}
+
+#timer-label {
+  display: block;
+  width: 30%;
+  font-size: 35px;
+  margin: auto;
+  margin-top: 20px;
+  border: 5px solid #2D3543;
+  border-radius: 25px;
+}
+
+#timer-control {
+  padding-bottom: 30px;
+  margin-top: 20px;
+}
+
+#time-left {
+  font-size: 70px;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+
+#credit {
+  font-family: 15px;
+  padding-bottom: 30px;
+}
